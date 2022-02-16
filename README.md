@@ -4,14 +4,18 @@ Github repo for EXIST, the first shared task on sEXism Identification in Social 
 
 
 ## Team
+* Andresel Medina-Petrina <Medina.Andresel@ait.ac.at>
+* Babic Andreas <mt191075@fhstp.ac.at>
 * Boeck Jaqueline (<mt181053@fhstp.ac.at>)
 * Hecht Manuel (<mt191064@fhstp.ac.at>)
 * Kirchknopf Armin (<Armin.Kirchknopf@fhstp.ac.at>)
+* Lampert Jasmin <Jasmin.Lampert@ait.ac.at>
 * Liakhovets Daria (<Daria.Liakhovets.fl@ait.ac.at>)
 * Alexander Schindler (<alexander.schindler@ait.ac.at>)
 * Schlarb Sven (<Sven.Schlarb@ait.ac.at>)
 * Schütz Mina (<Mina.Schuetz@ait.ac.at>)
 * Slijepčević Djordje (<Djordje.Slijepcevic@fhstp.ac.at>)
+* Strebl Julia <Julia.Strebl@fhstp.ac.at>
 * Zeppelzauer Matthias (<Matthias.Zeppelzauer@fhstp.ac.at>)
 
 ## Literature Research
