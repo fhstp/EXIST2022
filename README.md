@@ -21,6 +21,11 @@ Github repo for EXIST, the first shared task on sEXism Identification in Social 
 ## Literature Research
 [Link to Literature Research from EXIST2021](https://teamwork.fhstp.ac.at/quickteams/home/CVPR_JF/_layouts/15/WopiFrame2.aspx?sourcedoc=%7B57EDB0F6-E970-4665-974E-9EF63C776639%7D&file=Literature_Research_EXIST.xlsx&action=default)
 
+## Data
+Please use the fixed training and validation splits for your experiments.
+* Training/validation splits (80/20%): s. data/train_val_split
+* Preprocessed data for language model fine-tuning: s. data/for_pretraining
+
 ## Approaches
 
 ## Results / Task_1
