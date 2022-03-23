@@ -31,7 +31,7 @@ Please use the fixed training and validation splits for your experiments.
 ## Results / Task_1 (Validation Data)
 
 | Approach    | Pretraining Data   | Finetuning Data 	| Acc | Precision (macro) | Recall (macro) | F1 (macro)  | Added by: |
-| -------------- | --------------------- |	--------------------- | :-------: |  :-------: | ---------- |
+| -------------- | --------------------- |	--------------------- | :-------: | :-------: | :-------: | :-------: | ---------- |
 | mBERT | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | MS |
 | BERT | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | AB |
 | XML-RoBERTa | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | DL |
@@ -41,7 +41,7 @@ Please use the fixed training and validation splits for your experiments.
 ## Results / Task_2 (Validation Data)
 
 | Approach    | Pretraining Data   | Finetuning Data 	| Acc | Precision (macro) | Recall (macro) | F1 (macro)  | Added by: |
-| -------------- | --------------------- |	--------------------- | :-------: |  :-------: | ---------- |
+| -------------- | --------------------- |	--------------------- | :-------: | :-------: | :-------: | :-------: | ---------- |
 | mBERT | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | MS |
 | BERT | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | AB |
 | XML-RoBERTa | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | DL |
