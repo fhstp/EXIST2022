@@ -30,17 +30,20 @@ Please use the fixed training and validation splits for your experiments.
 
 ## Results / Task_1
 
-| Approach    | Data                     	| Acc (val) |  F1  | Added by: |
-| -------------- | --------------------- 	| :-------: |  :-------: | ---------- |
-| BERT + 1 Dense | EXIST (orig.prepr.) 	 	| 77.4%    |- | DS |
+| Approach    | Pretraining Data   | Finetuning Data 	| Acc (val) |  F1  | Added by: |
+| -------------- | --------------------- |	--------------------- | :-------: |  :-------: | ---------- |
+| mBERT | EXIST 2022	| EXIST 2022 	| XXX%    |- | XXX |
+| XML-RoBERTa | EXIST 2022	| EXIST 2022 	| XXX%    |- | XXX |
+| T5 | EXIST 2022	| EXIST 2022 	| XXX%    |- | XXX |
 
 
 ## Results / Task_2
 
-| Approach    | Data                     	| Acc (val) |   F1  | Added by: |
-| -------------- | --------------------- 	| :-------: | :-------: | ---------- |
-| BERT + 1 Dense | EXIST (orig.prepr. + trans.)  	 	| 68.1%     |   0.68 (micro)  | AK |
-
+| Approach    | Pretraining Data   | Finetuning Data 	| Acc (val) |  F1  | Added by: |
+| -------------- | --------------------- |	--------------------- | :-------: |  :-------: | ---------- |
+| mBERT | EXIST 2022	| EXIST 2022 	| XXX%    |- | XXX |
+| XML-RoBERTa | EXIST 2022	| EXIST 2022 	| XXX%    |- | XXX |
+| T5 | EXIST 2022	| EXIST 2022 	| XXX%    |- | XXX |
 
 
 ## Status Updates
