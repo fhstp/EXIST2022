@@ -32,7 +32,7 @@ Please use the fixed training and validation splits for your experiments.
 
 | Model    | Approach    | Pretraining Data   | Finetuning Data 	| Acc | Precision (macro) | Recall (macro) | F1 (macro)  | Added by: |
 | -------------- | --------------------- | --------------------- |	--------------------- | :-------: | :-------: | :-------: | :-------: | ---------- |
-| mBERT | Baseline | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | MS |
+| mBERT | Baseline | EXIST 2022	| EXIST 2022 (task2) 	| 74.88%    | 76.47%    | 75.08%    | 74.59%   | MS |
 | BERT | Baseline | EXIST 2022	| EXIST 2022 	| 81.1%    | tbc    | tbc    | 82.4%   | AB |
 | XML-RoBERTa | Baseline | EXIST 2022	| EXIST 2022 (task2) 	| 82.18%    | 79.63%    | 87.24%    | 83.26%   | DL |
 | XML-RoBERTa | Baseline | EXIST 2022+additional datasets	| EXIST 2022  (task2)	| 82.02%    | 79.91%    | 86.32%    | 82.99%   | DL |
@@ -45,7 +45,7 @@ Please use the fixed training and validation splits for your experiments.
 
 | Model | Approach    | Pretraining Data   | Finetuning Data 	| Acc | Precision (macro) | Recall (macro) | F1 (macro)  | Added by: |
 | -------------- | --------------------- | --------------------- |	--------------------- | :-------: | :-------: | :-------: | :-------: | ---------- |
-| mBERT | Baseline | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | MS |
+| mBERT | Baseline | EXIST 2022	| EXIST 2022 (task2) 	| 76.82%    | 71.50%    | 71.74%    | 71.53%   | MS |
 | BERT | Baseline | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | AB |
 | XML-RoBERTa | Baseline | EXIST 2022	| EXIST 2022 (task2) 	| 69.48%    | 61.12%    | 63.82%    | 62.25%   | DL |
 | XML-RoBERTa | Baseline | EXIST 2022+additional datasets	| EXIST 2022 (task2) 	| 70.80%    | 63.31%    | 65.78%    | 64.40%   | DL |
