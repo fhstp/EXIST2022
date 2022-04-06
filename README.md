@@ -38,6 +38,7 @@ Please use the fixed training and validation splits for your experiments.
 | XML-RoBERTa | Baseline | EXIST 2022+additional datasets	| EXIST 2022  (task2)	| 82.02%    | 79.91%    | 86.32%    | 82.99%   | DL |
 | T5 | Baseline | EXIST 2022	| EXIST 2022 	| 78.38%    | 75.90% (check if macro)   | 84.19% (check if macro)   | 79.83% (check if macro)  | JB |
 | T5 | Baseline | EXIST 2022 +additional datasets	| EXIST 2022 	| 79.77%    | 76.44% (check if macro)   | 87.01% (check if macro)   | 81.39% (check if macro)  | JB |
+| T5 | Baseline | EXIST 2022 +additional datasets	| EXIST 2022 + additional datasets 	| 85.29%    | 74.50% (check if macro)   | 83.71% (check if macro)   | 78.84% (check if macro)  | JB |
 
 
 ## Results / Task_2 (Validation Data)
