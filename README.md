@@ -56,6 +56,13 @@ Please use the fixed training and validation splits for your experiments.
 | Model | Approach | Pretraining (PT)  | Finetuning (FT) | Preproc. (PT) | Preproc. (FT) | Acc | Prec (macro) | Rec (macro) | F1 (macro)  | Added by: | Epochs (FT) | Batchsize (FT) | MaxSeqLen (FT) | LearningRate (FT) | 
 | -------------- | --------------------- | --------------------- |	--------------------- | :-------: | :-------: | :-------: | :-------: | ---------- | :-------: | :-------: | :----------: | ---------- | ---------- | ---------- |
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 88.26%    | 86.34%    | 87.42%    | 85.85%   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 1 | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 2 | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 3 | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | Version X | Version X | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | Version X | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version X | %    | %    | %    | %   | 85.85%   | MS | 10 | 16 | 256 | 2e-5 |
 
 ## Status Updates
 *
