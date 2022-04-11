@@ -67,13 +67,6 @@ Please use the fixed training and validation splits for your experiments.
 | mBERT | Task 2 | EXIST 2022 + add data + tweets | EXIST 2022 | none | Version X | %    | %    | %    | %   | %   | MS | 10 | 16 | 256 | 2e-5 |
 
 
-Running Validation...
-  Validation - Accuracy: 0.8770
-  Validation - Precision: 0.8565
-  Validation - Recall: 0.8625
-  Validation - F1: 0.8490
-  Validation - Time: 0:00:33
-
 ## Status Updates
 *
 
