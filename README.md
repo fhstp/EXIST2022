@@ -57,15 +57,15 @@ Please use the fixed training and validation splits for your experiments.
 | -------------- | --------------------- | --------------------- |	--------------------- | :-------: | :-------: | :-------: | :-------: | ---------- | :-------: | :-------: | :----------: | ---------- | ---------- | ---------- |
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 84.39%    | 84.52%    | 84.14%    | 83.44%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 1 | 83.27%    | 83.46%    | 83.23%    | 82.30%   | MS | 10 | 16 | 256 | 2e-5 |
-| mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 2 | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 2 | 82.92%    | 82.86%    | 82.63%    | 81.77%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 3 | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | Version X | Version X | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 + add data + tweets | EXIST 2022 + add data | none | Version X | %    | %    | %    | %   | %   | MS | 10 | 16 | 256 | 2e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 81.56%    | 81.76%    | 81.49%    | 81.50%   | DL | 3 | 8 | 128 | 1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 82.37%    | 82.46%    | 82.32%    | 82.34%   | DL | 3 | 8 | 128 | 2e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 84.39%    | 84.39%    | 84.38%    | 84.38%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | 83.19%    | 83.38%    | 83.12%    | 83.14%   | DL | 3 | 8 | 128 | 2e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | 84.78%    | 84.88%    | 84.73%    | 84.75%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
-| mBERT | Task 1 | EXIST 2022 + add data + tweets | EXIST 2022 + add data | none | Version X | %    | %    | %    | %   | %   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | Version X | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version X | %    | %    | %    | %   | %   | MS | 10 | 16 | 256 | 2e-5 |
