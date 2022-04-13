@@ -61,9 +61,8 @@ Please use the fixed training and validation splits for your experiments.
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version 3 | 83.85%    | 83.98%    | 83.59%    | 82.82%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 83.70%    | 83.32%    | 83.55%    | 81.46%   | MS | 6 | 8 | 128 | 2e-5 |
 | mBERT | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 83.31%    | 83.12%    | 82.65%    | 80.85%   | MS | 10 | 8 | 128 | 2e-5 |
-| mBERT | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | %    | %    | %    | %   | MS | 10 | 8 | 128 | 2e-5 |
-| mBERT | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | %    | %    | %    | %   | MS | 10 | 8 | 128 | 2e-5 |
-| mBERT | Task 1 | EXIST 2022 + add data + tweets | EXIST 2022 + add data | none | Version X | %    | %    | %    | %   | %   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | 84.43%    | 84.73%    | 84.43%    | 83.48%   | MS | 10 | 16 | 256 | 2e-5 |
+| mBERT | Task 1 | EXIST 2022 + add data + tweets | EXIST 2022 + add data | none | none | TBD%    | TBD%    | TBD%    |TBD %   | MS | 10 | 16 | 256 | 2e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 81.56%    | 81.76%    | 81.49%    | 81.50%   | DL | 3 | 8 | 128 | 1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 82.37%    | 82.46%    | 82.32%    | 82.34%   | DL | 3 | 8 | 128 | 2e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 84.39%    | 84.39%    | 84.38%    | 84.38%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
@@ -78,12 +77,6 @@ Please use the fixed training and validation splits for your experiments.
 | XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 75.03%    | 68.76%    | 70.64%    | 69.62%   | DL | 3 | 8 | 128 | 2e-5 |
 | XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 74.84%    | 68.74%    | 71.86%    | 70.09%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
 
-Running Validation...
-  Validation - Accuracy: 0.
-  Validation - Precision: 0.
-  Validation - Recall: 0.
-  Validation - F1: 0.
-  Validation - Time: 0:00:08
 
 ## JUST TO SAVE IT - WITH OLD TRAIN/VAL SPLIT (Mina):
 | Model | Approach | Pretraining (PT)  | Finetuning (FT) | Preproc. (PT) | Preproc. (FT) | Acc | Prec (macro) | Rec (macro) | F1 (macro)  | Added by: | Epochs (FT) | Batchsize (FT) | MaxSeqLen (FT) | LearningRate (FT) | 
