@@ -68,6 +68,7 @@ Please use the fixed training and validation splits for your experiments.
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + add data | none | none | 84.39%    | 84.39%    | 84.38%    | 84.38%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | 83.19%    | 83.38%    | 83.12%    | 83.14%   | DL | 3 | 8 | 128 | 2e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | 84.78%    | 84.88%    | 84.73%    | 84.75%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
+| XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 TASK2 | none | none | 84.82%    | 83.11%    | 88.00%    | 85.49%   | DL | 3 | 8 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | Version X | %    | %    | %    | %   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + add data | none | Version X | %    | %    | %    | %   | %   | MS | 10 | 16 | 256 | 2e-5 |
@@ -76,6 +77,7 @@ Please use the fixed training and validation splits for your experiments.
 | XLM-RoBERTa | Task 2 | EXIST 2022 | EXIST 2022 | none | none | 74.96%    | 68.06%    | 70.11%    | 69.01%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 75.03%    | 68.76%    | 70.64%    | 69.62%   | DL | 3 | 8 | 128 | 2e-5 |
 | XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 74.84%    | 68.74%    | 71.86%    | 70.09%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
+| XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 TASK2 | none | none | 74.57%    | 67.25%    | 69.21%    | 68.10%   | DL | 3 | 8 | 256 | 2e-5 |
 
 
 ## JUST TO SAVE IT - WITH OLD TRAIN/VAL SPLIT (Mina):
