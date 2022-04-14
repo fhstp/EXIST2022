@@ -24,9 +24,12 @@ Github repo for EXIST, the first shared task on sEXism Identification in Social 
 ## Data
 Please use the fixed training and validation splits for your experiments.
 * Training/validation splits (80/20%): s. data/EXIST_train_val_split
-* Translated training/validation splits:
-    - Only translated: data/EXIST_train_val_split/transl_train.csv, data/EXIST_train_val_split/transl_val.csv
-    - **Original + translated:** data/EXIST_train_val_split/merged_train.csv, data/EXIST_train_val_split/merged_val.csv
+* T**IMPORTANT** Translated training/validation splits:
+    - Use **data/EXIST_train_val_split/merged_train.csv** for training and
+    - Use **data/EXIST_train_val_split/val.csv** for validation
+    - If you are experimenting with multilingual models: Create your own merge with a correct "language" indicator. 
+    - Only translated: data/EXIST_train_val_split/transl_train.csv
+    - Original + translated: data/EXIST_train_val_split/merged_train.csv
 * Preprocessed data for language model fine-tuning: s. data/for_pretraining
 
 ## Approaches
