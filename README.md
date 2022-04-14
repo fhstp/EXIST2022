@@ -27,7 +27,7 @@ Please use the fixed training and validation splits for your experiments.
 * T**IMPORTANT** Translated training/validation splits:
     - Use **data/EXIST_train_val_split/merged_train.csv** for training and
     - Use **data/EXIST_train_val_split/val.csv** for validation
-    - If you are experimenting with multilingual models: Create your own merge with a correct "language" indicator. 
+    - If you are experimenting with monolingual models: Create your own merge with a correct "language" indicator. 
     - Only translated: data/EXIST_train_val_split/transl_train.csv
     - Original + translated: data/EXIST_train_val_split/merged_train.csv
 * Preprocessed data for language model fine-tuning: s. data/for_pretraining
