@@ -80,7 +80,7 @@ Please use the fixed training and validation splits for your experiments.
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 77.25%    | 67.50%    | 68.33%    | 65.53%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + trans data | none | none | 76.73%    | 67.41%    | 67.66%    | 65.13%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 76.13%    | 64.90%    | 64.67%    | 63.10%   | MS | 7 | 8 | 128 | 2e-5 |
-| mBERT | Task 2 | EXIST 2022 | EXIST 2022 | none | none | 76.30%    | 67.18%    | 67.30%    | 64.69%   | MS | 8 | 16 | 256 | 2e-5 |
+| mBERT | Task 2 | EXIST 2022 | EXIST 2022 | none | none | 76.22%    | 67.08%    | 67.45%    | 64.73%   | MS | 8 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data + tweets | EXIST 2022 | none | Version X | %    | %    | %    | %   | %   | MS | 10 | 16 | 256 | 2e-5 |
 | XLM-RoBERTa | Task 2 | EXIST 2022 | EXIST 2022 | none | none | 73.36%    | 66.01%    | 67.76%    | 66.81%   | DL | 3 | 8 | 128 | 2e-5 |
 | XLM-RoBERTa | Task 2 | EXIST 2022 | EXIST 2022 | none | none | 74.96%    | 68.06%    | 70.11%    | 69.01%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
