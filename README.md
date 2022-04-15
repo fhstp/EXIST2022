@@ -53,7 +53,7 @@ Please use the fixed training and validation splits for your experiments.
 | Model | Approach    | Pretraining Data   | Finetuning Data 	| Acc | Precision (macro) | Recall (macro) | F1 (macro)  | Added by: |
 | -------------- | --------------------- | --------------------- |	--------------------- | :-------: | :-------: | :-------: | :-------: | ---------- |
 | mBERT | Baseline | EXIST 2022	| EXIST 2022 	| 76.82%    | 71.50%    | 71.74%    | 71.53%   | MS |
-| BERT | Baseline | EXIST 2022	| EXIST 2022	| 06.9%    | 10.2%    | 10%    | 10.9%   | AB |
+| BERT | Baseline | EXIST 2022	| EXIST 2022	| 73.8%    | 68%    | 70%    | 68%   | AB |
 | XML-RoBERTa | Baseline | EXIST 2022	| EXIST 2022 	| 69.48%    | 61.12%    | 63.82%    | 62.25%   | DL |
 | XML-RoBERTa | Baseline | EXIST 2022+additional datasets	| EXIST 2022 	| 70.80%    | 63.31%    | 65.78%    | 64.40%   | DL |
 | T5 | Baseline | EXIST 2022	| EXIST 2022 	| XXX%    | XXX%    | XXX%    | XXX%   | JB |
