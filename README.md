@@ -44,7 +44,6 @@ Please use the fixed training and validation splits for your experiments.
 | BERT | Baseline | EXIST 2022	| EXIST 2022 	| 81.1%    | 83%    | 83%    | 82.4%   | AB |
 | XML-RoBERTa | Baseline | EXIST 2022	| EXIST 2022 (task2) 	| 82.18%    | 79.63%    | 87.24%    | 83.26%   | DL |
 | XML-RoBERTa | Baseline | EXIST 2022+additional datasets	| EXIST 2022  (task2)	| 82.02%    | 79.91%    | 86.32%    | 82.99%   | DL |
-
 | T5(Task1 Model) | Baseline | EXIST 2022	| EXIST 2022 	| 83.54%    | 83.60%    | 83.50%    | 83.52%   | JB |
 | T5(Task1 Model) | Baseline | EXIST 2022 +additional datasets	| EXIST 2022 	| 83.39%    | 83.29%   | 83.29%    | 83.30%   | JB |
 | T5(Task1 Model) | Baseline | EXIST 2022 +additional datasets	| EXIST 2022 + additional datasets 	| 82.57%    |   82.64%  | 82.53%    | 82.54%   | JB |
@@ -95,7 +94,7 @@ Please use the fixed training and validation splits for your experiments.
 | T5 | Task 1 | EXIST 2022 | EXIST 2022 + add| none  | none | 82.53%    | 82.60%   | 82.57%    | 82.53%   | JB | 9 | 4 | 512 | 1e-4 |
 | T5 | Task 1 | EXIST 2022 | EXIST 2022 + add| none  | none | 81.56%    | 82.00%   | 81.46%    | 81.46%   | JB | 9 | 4 | 512 | 3e-4 |
 | T5 | Task 1 | EXIST 2022 | EXIST 2022 + transl data | none  | none | 83.07%    |  83.38%  | 83.00%    | 83.01%   | JB | 8 | 4 | 512 | 1e-3 |
-| T5 | Task 1 | EXIST 2022 + add | EXIST 2022 + add + transl data | none retrain lr=3e-4 | none | 83.58%    |  83.92%  | 83.50%    | 83.51%   | JB | 6 | 4 | 512 | 3e-4 |
+| T5 (FINAL) | Task 1 | EXIST 2022 + add | EXIST 2022 + add + transl data | none retrain lr=3e-4 | none | 83.58%    |  83.92%  | 83.50%    | 83.51%   | JB | 6 | 4 | 512 | 3e-4 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 77.25%    | 67.50%    | 68.33%    | 65.53%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + transl data | none | none | 76.73%    | 67.41%    | 67.66%    | 65.13%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + transl data | none | none | 76.73%    | 67.41%    | 67.66%    | 65.13%   | MS | 10 | 16 | 256 | 2e-5 |
