@@ -84,7 +84,7 @@ Please use the fixed training and validation splits for your experiments.
 | XLM-RoBERTa | Task 1 | EXIST 2022 | EXIST 2022 + add data | none | none | 84.78%    | 84.88%    | 84.73%    | 84.75%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 (task 2) | none | none | 85.28%    | 83.26%    | 88.92%    | 85.99%   | DL | 3/2 | 8 | 256 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + transl data (task 2) | none | none | 85.40%    | 83.77%    | 88.38%    | 86.02%   | DL | 3/2 | 8 | 256 | 2e-5/1e-5 |
-| XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + transl data (task 2) | none | none | 85.90%    | 84.37%    | 88.69%    | 86.48%   | DL | 3/2+1 | 8 | 256 | 2e-5/1e-5 |
+| XLM-RoBERTa (FINAL) | Task 1 | EXIST 2022 + add data | EXIST 2022 + transl data (task 2) | none | none | 85.90%    | 84.37%    | 88.69%    | 86.48%   | DL | 3/2+1 | 8 | 256 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + transl data + add data | none | none | 84.74%    | 84.74%    | 84.73%    | 84.73%   | DL | 3/2+1 | 8 | 256 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 | EXIST 2022 | none | none | 84.89%    | 85.06%    | 84.84%    | 84.86%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
 | T5 (FINAL)| Task 1 | EXIST 2022| EXIST 2022| none | none | 83.39%    | 83.29%   | 83.29%    | 83.30%   | JB | 9 | 4 | 512 | 1e-4 |
@@ -109,7 +109,7 @@ Please use the fixed training and validation splits for your experiments.
 | XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 74.84%    | 68.74%    | 71.86%    | 70.09%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 (task 2) | none | none | 75.97%    | 69.07%    | 71.69%    | 70.28%   | DL | 3/2 | 8 | 256 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 + transl data (task 2) | none | none | 77.09%    | 71.01%    | 73.34%    | 72.09%   | DL | 3/2 | 8 | 256 | 2e-5/1e-5 |
-| XLM-RoBERTa | Task 2 | EXIST 2022 + add data | EXIST 2022 + transl data (task 2) | none | none | 77.63%    | 71.40%    | 73.64%    | 72.46%   | DL | 3/2+1 | 8 | 256 | 2e-5/1e-5 |
+| XLM-RoBERTa (FINAL) | Task 2 | EXIST 2022 + add data | EXIST 2022 + transl data (task 2) | none | none | 77.63%    | 71.40%    | 73.64%    | 72.46%   | DL | 3/2+1 | 8 | 256 | 2e-5/1e-5 |
 | T5 (FINAL) | Task 2 | EXIST 2022| EXIST 2022| none | none | 75.19%    | 69.60%    | 70.21%    | 69.70%   | JB | 10 | 4 | 512 | 1e-4 |
 | T5 | Task 2 | EXIST 2022 + add | EXIST 2022| none retrain lr=1e-4 | none | 75.82%    | 60.29%    | 61.07%    | 60.60%   | JB | 12 | 4 | 512 | 1e-4 |
 | T5 (not Final cause preds show issue in inference Model)| Task 2 | EXIST 2022 + add | EXIST 2022| none retrain lr=3e-4 | none | 75.47%    | 69.39%    | 71.46%    | 70.30%   | JB | 11 | 4 | 512 | 1e-4 |
