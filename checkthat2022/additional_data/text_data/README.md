@@ -1,3 +1,7 @@
+Note --> the 20M, 21M, 46M, etc. just give an insight in the amount of additional data used. The length of checkthat data is not included in the name of the merge!
+
+
+_______________________________________________________________
 Checkthat.txt -->  5388978 chars
 
 _______________________________________________________________
@@ -73,8 +77,8 @@ Final Merge
 Checkthat + German + English News =
 - prep_Checkthat_MERGED_news.txt  --> 270833071chars
 - prep_Checkthat_MERGED_news_Short_46M.txt --> 21093974 chars from English --> 21M & 24461513 chars from German--> 25M
-
 - prep_Checkthat_MERGED_news_Short_20M.txt --> contains 10000000 chars of English und 10000000 of German Dataset + Checkthat
-
+- prep_Checkthat_MERGED_news_Short_10M.txt --> contains 5000000 chars of English und 5000000 of German Dataset + Checkthat
+- prep_Checkthat_MERGED_news_Short_5M.txt --> contains 2500000 chars of English und 2500000 of German Dataset + Checkthat
 
 
