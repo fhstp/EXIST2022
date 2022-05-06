@@ -28,3 +28,7 @@ English(shuffled) = 59838891
 German = 160017415
 
 Merged = 219856306
+
+Translated Checkthat data: 
+- prep_CheckThat_merged_shuffled_train.txt merged_shuffled_train = 7974455 chars
+- prep_CheckThat_merged_shuffled_dev.txt merged_shuffled_val =3488162
