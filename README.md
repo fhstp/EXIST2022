@@ -31,9 +31,10 @@ Please use the fixed training and validation splits for your experiments.
     - Only translated: data/EXIST_train_val_split/transl_train.csv
     - Original + translated: data/EXIST_train_val_split/merged_train.csv
 * Preprocessed data for language model fine-tuning: s. data/for_pretraining
+* retraining of T5 if nothing else is mentiones is always done with lr=3e-4
 
 ## Approaches
-##### Note: T5 for Task 2 cant't be used for solving Task 1 (Transformer does not know the class "sexist")
+##### Note: T5 for Task 2 cant't be used for solving Task 1 (Transformer does not know the class "sexist")/ would need other prefix with other labels
 
 ## Results / Task_1 (Validation Data)
 
@@ -45,8 +46,9 @@ Please use the fixed training and validation splits for your experiments.
 | XML-RoBERTa | Baseline | EXIST 2022	| EXIST 2022 (task2) 	| 82.18%    | 79.63%    | 87.24%    | 83.26%   | DL |
 | XML-RoBERTa | Baseline | EXIST 2022+additional datasets	| EXIST 2022  (task2)	| 82.02%    | 79.91%    | 86.32%    | 82.99%   | DL |
 | T5(Task1 Model) | Baseline | EXIST 2022	| EXIST 2022 	| 83.54%    | 83.60%    | 83.50%    | 83.52%   | JB |
-| T5(Task1 Model) | Baseline | EXIST 2022 +additional datasets	| EXIST 2022 	| 83.39%    | 83.29%   | 83.29%    | 83.30%   | JB |
-| T5(Task1 Model) | Baseline | EXIST 2022 +additional datasets	| EXIST 2022 + additional datasets 	| 82.57%    |   82.64%  | 82.53%    | 82.54%   | JB |
+| T5(Task1 Model) | Baseline | EXIST 2022 + additional datasets	| EXIST 2022 	| 83.39%    | 83.29%   | 83.29%    | 83.30%   | JB |
+| T5(Task1 Model) | Baseline | EXIST 2022 + additional datasets	| EXIST 2022 + additional datasets 	| 82.57%    |   82.64%  | 82.53%    | 82.54%   | JB |
+| T5 (FINAL not used) | Baseline | EXIST 2022 + add | EXIST 2022 + add + transl data |  83.58%    |  83.92%  | 83.50%    | 83.51%   | JB 
 
 ## Results / Task_2 (Validation Data)
 
@@ -57,7 +59,7 @@ Please use the fixed training and validation splits for your experiments.
 | XML-RoBERTa | Baseline | EXIST 2022	| EXIST 2022 	| 69.48%    | 61.12%    | 63.82%    | 62.25%   | DL |
 | XML-RoBERTa | Baseline | EXIST 2022+additional datasets	| EXIST 2022 	| 70.80%    | 63.31%    | 65.78%    | 64.40%   | DL |
 | T5 | Baseline | EXIST 2022	| EXIST 2022 	| 75.19%    | 69.60%    | 70.21%    | 69.70%   | JB |
-| T5 | Baseline | EXIST 2022 + additional datasets	| EXIST 2022 	| 75.47%    | 69.39%    | 71.46%    |70.30%   | JB |
+| T5(FINAL not used) | Baseline | EXIST 2022 + additional datasets	| EXIST 2022 	| 75.47%    | 69.39%    | 71.46%    |70.30%   | JB |
 
 ## Results / Experiments (Validation Data)
 
@@ -87,7 +89,10 @@ Please use the fixed training and validation splits for your experiments.
 | XLM-RoBERTa (FINAL) | Task 1 | EXIST 2022 + add data | EXIST 2022 + transl data (task 2) | none | none | 85.90%    | 84.37%    | 88.69%    | 86.48%   | DL | 3/2+1 | 8 | 256 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 + add data | EXIST 2022 + transl data + add data | none | none | 84.74%    | 84.74%    | 84.73%    | 84.73%   | DL | 3/2+1 | 8 | 256 | 2e-5/1e-5 |
 | XLM-RoBERTa | Task 1 | EXIST 2022 | EXIST 2022 | none | none | 84.89%    | 85.06%    | 84.84%    | 84.86%   | DL | 3/2 | 8 | 128 | 2e-5/1e-5 |
-| T5 (FINAL)| Task 1 | EXIST 2022| EXIST 2022| none | none | 83.39%    | 83.29%   | 83.29%    | 83.30%   | JB | 9 | 4 | 512 | 1e-4 |
+
+| T5 (FINAL)| Task 1 | EXIST 2022| EXIST 2022| none | none | 83.54%    | 83.60%   | 83.50%    | 83.52%   | JB | 9 | 4 | 512 | 1e-4 |
+
+
 | T5 | Task 1 | EXIST 2022 + add | EXIST 2022| yes lr=1e-4 | none | 82.92%    | 83.09%   | 82.86%    | 82.88%   | JB | 8 | 4 | 128 | 1e-4 |
 | T5 | Task 1 | EXIST 2022 + add | EXIST 2022| yes lr=1e-4 | none | 83.39%    | 83.29%   | 83.29%    | 83.30%   | JB | 8 | 4 | 512 | 1e-4 |
 | T5 | Task 1 | EXIST 2022 + add | EXIST 2022 + add| none retrain lr=1e-4 | none | 80.43%    | 82.09%   | 81.99%    | 82.09%   | JB | 8 | 4 | 128 | 1e-4 |
@@ -96,7 +101,7 @@ Please use the fixed training and validation splits for your experiments.
 | T5 | Task 1 | EXIST 2022 | EXIST 2022 + add| none  | none | 82.53%    | 82.60%   | 82.57%    | 82.53%   | JB | 9 | 4 | 512 | 1e-4 |
 | T5 | Task 1 | EXIST 2022 | EXIST 2022 + add| none  | none | 81.56%    | 82.00%   | 81.46%    | 81.46%   | JB | 9 | 4 | 512 | 3e-4 |
 | T5 | Task 1 | EXIST 2022 | EXIST 2022 + transl data | none  | none | 83.07%    |  83.38%  | 83.00%    | 83.01%   | JB | 8 | 4 | 512 | 1e-3 |
-| T5 (FINAL) | Task 1 | EXIST 2022 + add | EXIST 2022 + add + transl data | none retrain lr=3e-4 | none | 83.58%    |  83.92%  | 83.50%    | 83.51%   | JB | 6 | 4 | 512 | 3e-4 |
+| T5 (FINAL not used) | Task 1 | EXIST 2022 + add | EXIST 2022 + add + transl data | none retrain lr=3e-4 | none | 83.58%    |  83.92%  | 83.50%    | 83.51%   | JB | 6 | 4 | 512 | 3e-4 |
 | mBERT (FINAL) | Task 2 | EXIST 2022 + add data | EXIST 2022 | none | none | 77.25%    | 67.50%    | 68.33%    | 65.53%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + transl data | none | none | 76.73%    | 67.41%    | 67.66%    | 65.13%   | MS | 10 | 16 | 256 | 2e-5 |
 | mBERT | Task 2 | EXIST 2022 + add data | EXIST 2022 + transl data | none | none | 76.73%    | 67.41%    | 67.66%    | 65.13%   | MS | 10 | 16 | 256 | 2e-5 |
